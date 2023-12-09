@@ -1,11 +1,13 @@
-1.- Crear una base de datos son el nombre "sistematesis" -> nombre del proyecto que le di.
-2.- Si tienes los datos predeterminados del xamm o wammp, o el que utilice no modificar el archivo ".env",
-en el caso que tenga una contraseña para entrar a sus base de datos colocarlo en el archivo ".env" DB_PASSWORD.
-3.- Tener instalado composer y node.js para ejecutar comandos
-4.- abrir terminal donde este la carpeta del proyecto y ejecutar este comando "php artisan migrate:fresh --seed",
+1.- Una vez clonado el repositorio debes crear una base de datos son el nombre "sistematesis"-> nombre del proyecto que le di.
+2.- Abrir el terminar desde la ruta de la carpeta creada para ejecutar las depencias del proyecto:
+   -> composer install ->creara la carpeta vendor
+   -> npm install ->creara la carpeta node_modules
+3.- Duplicar el archivo ".env.example" y ponerle el nombre ".env" -> si tienes el xamm o wammp y no agregaste contraseña para crear base de datos no mover el archivo si no modificar los datos en el archivo.
+4.- Tener instalado composer y node.js para ejecutar comandos
+5.- en la terminal donde este la carpeta del proyecto, ejecutar este comando "php artisan migrate:fresh --seed",
 sirve para crear todas las tablas de la base de datos y colocar el primer usuario de Administrador.
-   -->NOTA: ese comando solo utilizarlo al principio del proyecto o 
-      si quiere reinicias las tablas del proyecto, si no solo utilizar "php artisan migrate"
+   -->NOTA: ese comando solo utilizarlo al principio del proyecto o
+      si quiere reiniciar las tablas del proyecto, si no para los siguientes solo utilizar "php artisan migrate"
 5.- ejecutar el comando "php artisan serve" para activar el proyecto
 6.- abrir en el navegador con el siguente enlace "http://127.0.0.1:8000/"
 7.- Usuario: info@example.com, Contraseña: password
