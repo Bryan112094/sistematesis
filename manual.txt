@@ -3,7 +3,7 @@
    -> composer install ->creara la carpeta vendor
    -> npm install ->creara la carpeta node_modules
 3.- Duplicar el archivo ".env.example" y ponerle el nombre ".env" -> si tienes el xamm o wammp y no agregaste contraseña para crear base de datos no mover el archivo si no modificar los datos en el archivo.
-4.- Tener instalado composer y node.js para ejecutar comandos
+4.- en la terminar ejecutar el comando "php artisan key:generate"
 5.- en la terminal donde este la carpeta del proyecto, ejecutar este comando "php artisan migrate:fresh --seed",
 sirve para crear todas las tablas de la base de datos y colocar el primer usuario de Administrador.
    -->NOTA: ese comando solo utilizarlo al principio del proyecto o
